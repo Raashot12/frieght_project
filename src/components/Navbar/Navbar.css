@@ -1,0 +1,121 @@
+.logo{
+  font-family: 'Barlow', sans-serif;
+  color: #ffff;
+    position: relative;
+   
+}
+.logo-input-container .logo{
+    margin-right: 2rem;
+}
+.freight{
+ font-family: Barlow;
+ text-transform: uppercase;
+ font-size: 14px;
+ letter-spacing: 2px;
+}
+.send{
+    font-family: Barlow;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.fa-search{
+display: block;
+position: relative;
+right: 2rem;
+top: 11px;
+color: white;
+opacity: 0.8;
+}
+.logo-input-container{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;   
+    background-color: #0746a7;
+    position: relative;
+    padding: 15px 30px;
+}
+.logo-input-container .search_box input{
+    height: 38px;
+    width:70%;
+    color: #ffff;
+    background-color: rgb(255,255,255, 0.2);
+    outline:none;
+    border: none;
+    padding-left: 1.5rem;
+}
+
+.logo-input-container .search_box input::placeholder{
+    color: white;
+    opacity: 0.3;
+    font-family: 'Open Sans', sans-serif;
+}
+.search_box{
+    display: flex;
+    width: 70%;
+}
+
+.btn-container{
+    position: relative;
+}
+.btn-one{
+  border-radius: .4rem;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  outline: none;
+  margin-right: 2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 1px solid #ffff;
+  cursor: pointer;
+
+}
+.btn-one:hover{
+ transition: all 0.5s ease-out;
+ background-color:#5cc684 ;
+}
+.btn-two{
+  border-radius: .4rem;
+  background-color: #5cc684;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 1px solid #ffff;
+  cursor: pointer;
+}
+.btn-two:hover{
+ transition: all 0.5s ease-out;
+ background-color:transparent ;
+ color: red;
+ border: 1px solid #5cc684;
+}
+
+.input-container {
+    width: 100%;
+}
+.input-container input{
+    width: 50%;
+}
+
+
+@media (min-width:1025px) {
+    .logo {
+        margin-right: 6rem !important
+    }
+}

@@ -1,0 +1,23 @@
+.additional-container{
+    height: 300px;
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.text-additional{
+    padding-top: 2.5rem;
+}
+.container-item-toggle{
+    display: flex;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+.flex-item-text{
+    margin-left: 2rem;
+}
+.parent-toogling-container{
+    display: flex;
+    justify-content: space-between;
+}
